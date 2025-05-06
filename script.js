@@ -152,24 +152,10 @@ function initMemoryCards() {
         },
         {
             image: 'images/memory6.jpeg',
-            date: 'August 3, 2022',
-            title: 'Beach Sunset',
-            description: 'When we watched the sunset together and you said this was the most beautiful evening of your life.',
+            date: 'Feb 17, 2025',
+            title: 'Our Engagement Ring 💍',
+            description: 'That peaceful day in the park, holding your hand and sliding on our engagement ring.',
             music: 'music/enthan uyire.mp3'
-        },
-        {
-            image: 'images/memory3.jpeg',
-            date: 'October 21, 2022',
-            title: 'Our First Trip',
-            description: 'Three days in the mountains where we got lost but found each other even more.',
-            music: 'music/enthan uyire.mp3'
-        },
-        {
-            image: 'images/ice.jpeg',
-            date: 'December 31, 2022',
-            title: 'New Year\'s Kiss',
-            description: 'The fireworks exploded and so did my heart when you kissed me at midnight.',
-            music: 'music/memory4.mp3'
         },
         {
             image: 'images/memory4.jpeg',
@@ -179,9 +165,24 @@ function initMemoryCards() {
             music: 'music/memory5.mp3'
         },
         {
+            image: 'images/memory3.jpeg',
+            date: 'April 17, 2025',
+            title: 'A Day in the Park, A Memory Forever ♾️',
+            description: 'Another peaceful day, another special memory. Sitting side by side in the park, sharing smiles and silence — moments like these are the real treasures of our journey.',
+            music: 'music/enthan uyire.mp3'
+        },
+        {
+            image: 'images/ice.jpeg',
+            date: 'April 17, 2025',
+            title: 'Two Ice Creams, One Sweet Moment 🩷',
+            description: 'That day in the park, with laughter in our hearts and ice creams in hand, felt like the simplest and purest kind of happiness. Just you, me, and a little sweetness shared under the sky.',
+            music: 'music/memory4.mp3'
+        },
+        
+        {
             image: 'images/birthday.jpeg',
             date: 'Today',
-            title: 'Your Special Day',
+            title: 'Your Special Day 💖',
             description: 'Another year of your beautiful life, another year I get to love you.',
             music: 'music/memory6.mp3'
         },
