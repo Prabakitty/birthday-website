@@ -172,7 +172,7 @@ function initMemoryCards() {
             music: 'music/enthan uyire.mp3'
         },
         {
-            image: 'images/ice.jpeg',
+            image: 'images/Icecream.jpeg',
             date: 'April 17, 2025',
             title: 'Two Ice Creams, One Sweet Moment 🩷',
             description: 'That day in the park, with laughter in our hearts and ice creams in hand, felt like the simplest and purest kind of happiness. Just you, me, and a little sweetness shared under the sky.',
