@@ -493,11 +493,30 @@ body.heart-cursor-active .heart-cursor {
     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
 
-.memory-image {
+/* .memory-image {
     height: 350px;
     background-size: cover;
     background-position: center;
+} */
+
+.memory-image {
+    width: 100%;
+    aspect-ratio: 3 / 4; /* great for vertical images */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+@media (max-width: 600px) {
+    .memory-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .memory-grid {
+    justify-items: center;
+}
+
 
 .memory-content {
     padding: 20px;
