@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="loading-screen">
+        <div class="heart-loader"></div>
+        <p>Preparing something special New...</p>
+    </div>
+
+    <canvas id="confetti"></canvas>
+
+    <!-- Add these right after the confetti canvas -->
+<div id="floating-hearts"></div>
+<div class="heart-cursor"></div>
+
+    
+<div class="container">
+    <header class="parallax-header">
+        <!-- 🎥 Background Video -->
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="videos/ourvide.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Your Main Content -->
+        <h1 class="title">Happy Birthday, <span class="name">Keerthii</span>!</h1>
+        <div class="subtitle">Every day with you is a gift</div>
+        <div class="scroll-down">↓ Scroll Down ↓</div>
+    </header>
+</div>
+
+
+        <section class="video-section">
+            <h2>Our Favorite Video</h2>
+            <div class="video-container">
+              <div class="video-poster" id="video-poster">
+                <img src="images/memory1.jpg" alt="Our special video">
+                <div class="play-button">▶</div>
+                <p>Click to play our song</p>
+              </div>
+              <video id="our-video" controls style="display: none; width: 100%;">
+                <source src="videos/ourvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </section>
+
+        <section class="memory-section">
+            <div class="memory-grid">
+                <!-- Memory cards will be added dynamically by JS -->
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <h2>Our Journey</h2>
+            <div class="timeline">
+                <!-- Timeline items will be added by JS -->
+            </div>
+        </section>
+
+        <section class="message-section">
+            <div class="message-container">
+                <div class="message-paper">
+                    <h3>My Dearest Pondatii...,</h3>
+                    <p class="typed-message"></p>
+                    <div class="signature">Forever Yours,<br>Praba...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add this section before the gift section -->
+<section class="interactive-section">
+    <h2>How Much I Love You</h2>
+    <div class="love-meter">
+        <div class="meter-fill" id="meter-fill"></div>
+        <div class="meter-text">Click the heart to fill the meter!</div>
+    </div>
+    <div class="heart-btn" id="heart-btn">❤️</div>
+</section>
+
+        <section class="gift-section">
+            <h2>A Little Surprise</h2>
+            <div class="gift-box">
+                <div class="lid"></div>
+                <div class="box" onclick="openGift()">
+                    <div class="ribbon"></div>
+                </div>
+                <div class="gift-content">
+                    <!-- Will be revealed when clicked -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <audio id="birthdayMusic" loop>
+        <source src="happy-birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
