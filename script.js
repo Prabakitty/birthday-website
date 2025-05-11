@@ -162,7 +162,7 @@ function initMemoryCards() {
             date: 'March 19, 2025',
             title: "Always Yours 💕",
             description: 'The warmth of your hand in mine, the silent promise of forever.',
-            music: 'music/memory5.mp3'
+            music: 'music/unnai.mp3'
         },
         {
             image: 'images/memory3.jpeg',
@@ -240,25 +240,27 @@ function initMemoryCards() {
 function initTimeline() {
     const timelineData = [
         {
-            date: 'June 2022',
+            date: 'Mar 2023',
             title: 'The Day We Met',
-            content: 'I still remember what you were wearing and how your laugh made me feel instantly comfortable.'
+            content: 'The moment you walked into my home at my sister’s wedding, everything changed. Your smile made me feel so comfortable, like I had known you forever.'
         },
         {
-            date: 'August 2022',
-            title: 'First "I Love You"',
-            content: 'We were at the park when it started raining, and in that moment I knew I never wanted to be with anyone else.'
+            date: 'April 2023',
+            title: 'Our First Beach Day',
+            content: 'Our first beach day was unforgettable. The sun, the waves, and your laughter made it perfect.'
         },
         {
-            date: 'November 2022',
-            title: 'Meeting the Parents',
-            content: 'You were so nervous but they loved you immediately - how could they not?'
+            date: 'May 2023',
+            title: 'Thiruvilzhaa Memories...',
+            content:'We wandered through the streets, hand in hand, exploring Rattinam and the shops, making memories that made my heart feel full.'
         },
         {
-            date: 'February 2023',
-            title: 'Our First Vacation',
-            content: 'Two weeks in Bali where we discovered that we travel perfectly together.'
+            date: 'June 2023',
+            title: 'First Night Walk Together',
+            content: 'Under the stars, it felt like the world faded away, leaving only us and the quiet moments we shared.'
         },
+        
+        
         {
             date: 'Today',
             title: 'Your Birthday',
