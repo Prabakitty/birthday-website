@@ -155,7 +155,7 @@ function initMemoryCards() {
             date: 'Feb 17, 2025',
             title: 'Our Engagement Ring 💍',
             description: 'That peaceful day in the park, holding your hand and sliding on our engagement ring.',
-            music: 'music/enthan uyire.mp3'
+            music: 'music/Kannana kanne.mp3'
         },
         {
             image: 'images/memory4.jpeg',
@@ -169,14 +169,14 @@ function initMemoryCards() {
             date: 'April 17, 2025',
             title: 'A Day in the Park, A Memory Forever ♾️',
             description: 'Another peaceful day, another special memory. Sitting side by side in the park, sharing smiles and silence — moments like these are the real treasures of our journey.',
-            music: 'music/enthan uyire.mp3'
+            music: 'music/uruvatha nizhala.mp3'
         },
         {
             image: 'images/Icecream.jpeg',
             date: 'April 17, 2025',
             title: 'Two Ice Creams, One Sweet Moment 🩷',
             description: 'That day in the park, with laughter in our hearts and ice creams in hand, felt like the simplest and purest kind of happiness. Just you, me, and a little sweetness shared under the sky.',
-            music: 'music/memory4.mp3'
+            music: 'music/thedi sertha.mp3'
         },
         
         {
@@ -184,7 +184,7 @@ function initMemoryCards() {
             date: 'Today',
             title: 'Your Special Day 💖',
             description: 'Another year of your beautiful life, another year I get to love you.',
-            music: 'music/memory6.mp3'
+            music: 'music/Remo.mp3'
         },
     ];
 
@@ -611,7 +611,6 @@ function openGift() {
             <li>Keep surprising you with little moments of joy</li>
             <li>Cherish every second we have together</li>
         </ul>
-        <p>And one more thing... <span class="surprise">Check your phone in 3...2...1...</span></p>
     `;
     
     // Create heart explosion
@@ -650,4 +649,5 @@ function initVideoPlayer() {
   // Call this in your DOMContentLoaded function
   document.addEventListener('DOMContentLoaded', function() {
     initVideoPlayer();
+    
   });
